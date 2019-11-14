@@ -4,7 +4,7 @@
     {{-- Page Cover --}}
     <div class="relative">
         <img
-            src="{{ asset("img/cover/iiona-virgin-Pb8_guWhws4-unsplash.jpg") }}"
+            src="{{ asset("img/cover/image01.jpg") }}"
             alt="Cover photograph"
             class="w-full object-cover"
             style="height: calc(100vh - 73px)"
