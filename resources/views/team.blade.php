@@ -15,7 +15,7 @@
         <div class="flex -mx-6 border-b pb-6">
             <div class="w-1/3 px-6">
                 <div>
-                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/member01.jpg")}}" alt="">
+                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/elizabeth.jpg")}}" alt="">
                 </div>
 
                 <ul class="mt-8">
@@ -51,12 +51,12 @@
 
                 <div>
                         <p class="mb-4">
-                            I am currently a first year student at the University of Dar es salaam 
+                            I am currently a first year student at the University of Dar es salaam
                             taking Bachelor of Science in Business Information Technology.
                         </p>
                         <p class="mb-4">
-                            I believe in innovation and everyone is an innovator, we just need to 
-                            think a little bit deeper, because for me innovation is anything that 
+                            I believe in innovation and everyone is an innovator, we just need to
+                            think a little bit deeper, because for me innovation is anything that
                             brings positive change to the community, My Dignity is innovation.
                         </p>
                         <p class="mb-4">
@@ -75,14 +75,14 @@
 
                 <div>
                         <p class="mb-4">
-                            I am 20 years old, my passion is to talk to the young girls 
+                            I am 20 years old, my passion is to talk to the young girls
                             about self-determination.
                         </p>
                         <p class="mb-4">
-                            I am a first-year student at the University of Dar es salaam taking 
-                            bachelor of science in metrology; it’s been great to do this project 
-                            for the girls in Tanzania, it helps me feel useful, every single day 
-                            I wake up and remember I have a duty, I hope this duty will soon be 
+                            I am a first-year student at the University of Dar es salaam taking
+                            bachelor of science in metrology; it’s been great to do this project
+                            for the girls in Tanzania, it helps me feel useful, every single day
+                            I wake up and remember I have a duty, I hope this duty will soon be
                             overtaken by our parents and helps us walk through this road.
                         </p>
                         <p class="mb-4">
@@ -94,7 +94,7 @@
 
             <div class="w-1/3 px-6">
                 <div>
-                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/member02.jpg")}}" alt="">
+                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/avatar.png")}}" alt="">
                 </div>
 
                 <ul class="mt-8">
@@ -129,7 +129,7 @@
         <div class="flex -mx-6 border-b pb-6 pt-10">
             <div class="w-1/3 px-6">
                 <div>
-                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/member03.jpg")}}" alt="">
+                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/avatar.png")}}" alt="">
                 </div>
 
                 <ul class="mt-8">
@@ -165,10 +165,10 @@
 
                 <div>
                         <p class="mb-4">
-                            I am taking Bachelor of Science in civil engineering, love reading books, 
-                            19 years old some people think am too young with what I’ve achieved 
-                            considering the country I am living in, more astonished they become when 
-                            I tell them I am working on a project and I am one of the founders, I hope 
+                            I am taking Bachelor of Science in civil engineering, love reading books,
+                            19 years old some people think am too young with what I’ve achieved
+                            considering the country I am living in, more astonished they become when
+                            I tell them I am working on a project and I am one of the founders, I hope
                             you enjoy your stay here.
                         </p>
 

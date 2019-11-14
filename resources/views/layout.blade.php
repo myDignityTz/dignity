@@ -39,7 +39,8 @@
             <header class="shadow bg-white">
                 <div class="flex items-center justify-between w-2/3 mx-auto">
                     <a href="/" class="font-bold text-xl">
-                        My<span class="text-pink-500">Dignity</span>
+{{--                        My<span class="text-pink-500">Dignity</span>--}}
+                        <img src="/img/logo/logo-black.svg" class="h-10" alt="">
                     </a>
 
                     <nav class="flex items-center">
