@@ -2,11 +2,11 @@
 
 Auth::routes();
 
-Route::view("/", "welcome")->name("welcome");
-Route::view("about", "about")->name("about");
+Route::get("/", "WelcomeController")->name("welcome");
+Route::get("about", "AboutController")->name("about");
 Route::view("techniques", "techniques")->name("techniques");
 Route::view("experience", "experience")->name("experience");
-Route::view("letter", "letter")->name("letter");
+Route::get("letter", "LetterController")->name("letter");
 Route::view("girls", "girls")->name("girls");
 Route::view("topics", "topics")->name("topics");
 Route::view("team", "team")->name("team");

@@ -39,7 +39,6 @@
             <header class="shadow bg-white">
                 <div class="flex items-center justify-between w-2/3 mx-auto">
                     <a href="/" class="font-bold text-xl">
-{{--                        My<span class="text-pink-500">Dignity</span>--}}
                         <img src="/img/logo/logo-black.svg" class="h-10" alt="">
                     </a>
 
@@ -74,8 +73,8 @@
                         >Letter from eagle</a>
 
                         <div class="flex items-center ml-6 bg-pink-200 px-1 py-1 rounded">
-                            <a href="?lang=eng" class="px-2 text-xs uppercase tracking-wider rounded">Eng</a>
-                            <a href="?lang=swa" class="px-2 text-xs uppercase tracking-wider rounded bg-white">Sw</a>
+                            <a href="?lang=eng" class="px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'eng' ? 'bg-white shadow' : '' }}">Eng</a>
+                            <a href="?lang=swa" class="px-2 text-xs uppercase tracking-wider rounded {{ cache('lang') == 'swa' ? 'bg-white shadow' : '' }}">Swa</a>
                         </div>
                     </nav>
                 </div>
