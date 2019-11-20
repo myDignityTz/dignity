@@ -78,19 +78,15 @@
 
                 <div>
                         <p class="mb-4">
-                            I am 20 years old, my passion is to talk to the young girls
-                            about self-determination.
+                            I am a first-year student at the University of Dar es salaam taking a Bachelor of Science
+                            in Metrology. My passion is to talk to young girls about self-determination.
+                            It’s been great to do this project for the girls in Tanzania, it helps me feel useful,
+                            every single day I wake up and remember I have a duty, I hope this duty will soon be
+                            overtaken by our parents and helps us walk this road.
                         </p>
-                        <p class="mb-4">
-                            I am a first-year student at the University of Dar es salaam taking
-                            bachelor of science in metrology; it’s been great to do this project
-                            for the girls in Tanzania, it helps me feel useful, every single day
-                            I wake up and remember I have a duty, I hope this duty will soon be
-                            overtaken by our parents and helps us walk through this road.
-                        </p>
+
                         <p class="mb-4">
                             We help the girls, we help the future mothers; we create the future of Tanzania.
-
                         </p>
                 </div>
             </div>
@@ -168,15 +164,14 @@
 
                 <div>
                         <p class="mb-4">
-                            I am taking Bachelor of Science in civil engineering, love reading books,
-                            19 years old some people think am too young with what I’ve achieved
-                            considering the country I am living in, more astonished they become when
-                            I tell them I am working on a project and I am one of the founders, I hope
-                            you enjoy your stay here.
+                            I am 19 years old and taking Bachelor of Science in Civil Engineering degree.
+                            Some people think that I am too young with what I’ve achieved, considering the country
+                            I am living in. They are even more astonished when I tell them I am working on a project
+                            and I am one of the founders, I hope you enjoy your stay here.
                         </p>
 
                         <p class="mb-4">
-                            We are simply amazing truth to be told.
+                            Truth be told, we are simply amazing!
                         </p>
                 </div>
             </div>
