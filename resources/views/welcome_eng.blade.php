@@ -14,12 +14,12 @@
             <div class="px-16 py-16">
                 <h2 class="text-4xl font-bold tracking-wider mb-4">MyDignity</h2>
                 <p class="leading-loose text-xl">
-                    The platform has an SMS based system for both smartphones and
-                    feature phones to enable easy <span class="font-semibold text-pink-500">accessibility</span>
-                    and <span class="font-semibold text-pink-500">reach  to the targeted users</span>.
-                    Furthermore, we will <span class="font-semibold text-pink-500">create awareness</span>
-                    via seminars, events, print and digital media on the importance
-                    of SRH for young girls Parents and Guardians and stakeholders thus
+                    Is a web and SMS based platform for both smart and feature phones. My dignity is designed to
+                    provide <span class="font-semibold text-pink-500">easy access</span> to information and reach
+                    targeted users. Furthermore, My Dignity will <span class="font-semibold text-pink-500">create awareness</span>
+                    on Sexual and Reproductive Health (SRH) via seminars, events, print and digital media.
+                    It is our aim that through the website parents or guardians will be able to have open conversations
+                    with their children on Sexual Reproductive Health and Rights.
                 </p>
             </div>
         </div>
@@ -29,25 +29,29 @@
     <section class="bg-white pt-24 pb-24">
         <div class="w-2/3 mx-auto">
             <header class="mb-4">
-                <h3 class="text-3xl font-handwriting heading-indicator">Why we need SRH education:</h3>
+                <h3 class="text-3xl font-handwriting heading-indicator">Why SRH education:</h3>
             </header>
 
             <div class="text-lg text-gray-700 leading-loose">
                 <p class="mb-4">
-                    My Dignity is all about breaking the wall between adolescents especially young girls
-                    and parents when it comes to having a conversation on sexual reproductive health
-                    education (SRH), by giving techniques to parents which will make their communication
-                    easier. Most parents do not have detailed information about SRH in a more technical way,
-                    it is important for the parent to have detailed information before talking to their
-                    children as it helps them to attain the confidence and boldness that they need to talk
-                    to their young adolescents. Therefore, In this website, we give sexual reproductive
-                    health education to parents to increase their knowledge in Sexual Reproductive Health.
+                    Our project is all about breaking the wall between young girls
+                    and parents when it comes to having a conversation on sexual reproductive health education (SRH),
+                    by giving techniques to parents which will make communication about this issue easier.
                 </p>
 
                 <p class="mb-4">
-                    We also provide these techniques on SRH through an SMS based platform through the
-                    following <span class="text-pink-500 font-semibold">USSD Code #######</span>
-                    in an interactive manner.
+                    Parents do not always have key information about sexual and reproductive health. In addition to this
+                    they also don’t have the skills to have open conversations with their children on sexual and
+                    reproductive health. My Dignity is all about breaking down the walls between adolescents (especially
+                    young girls) and their parents or guardians. Through this platform will be given key information
+                    about sexual and reproductive health to empower them with all the information that they need.
+                    It will also provide parents with techniques that will make conversations easier to have with their
+                    children.
+                </p>
+
+                <p class="mb-4">
+                    This information can be accessed through an SMS based platform by following
+                    <span class="text-pink-500 font-semibold">USSD Code 15070</span> in an interactive manner.
                 </p>
             </div>
 
@@ -60,17 +64,16 @@
                     <div class="flex mb-12">
                         <div class="w-1/5 text-left mr-12 text-5xl text-pink-200 font-bold">01</div>
                         <div class="w-4/5 text-2xl leading-loose">
-                            My Dignity web-system and the SMS platform give parents detailed information on
-                            sexual reproductive health, especially topics that we’ve found more interesting
-                            and helpful to young adolescents, providing them more confidence and boldness to
-                            talk about such topics.
+                            My Dignity web-system and the SMS platform gives parents detailed information on sexual and
+                            reproductive health, especially topics interesting and helpful to young people, providing
+                            them confidence and boldness to talk about sexual and reproductive health.
                         </div>
                     </div>
 
                     <div class="flex mb-12">
                         <div class="w-1/5 text-left mr-12 text-5xl text-pink-200 font-bold">02</div>
                         <div class="w-4/5 text-2xl leading-loose">
-                            We also equip adolescents with Sexual Reproductive Health Education.
+                            We also equip adolescents with Sexual and Reproductive Health Education.
                         </div>
                     </div>
                 </div>
@@ -78,10 +81,9 @@
 
             <div>
                 <div class="text-xl text-pink-600 font-semibold leading-loose">
-                    The  topics that adolescents are more interested with and have been found
-                    helpful in their sexual life, so as to abstain themselves from sex and
-                    provide them self protection, which mostly have to be more professional and
-                    educational are
+                    The topics that adolescents are more interested with and have been found helpful in their sexual
+                    life, so as to abstain themselves from sex and provide them self protection, which mostly have to
+                    be more professional and educational are.
                 </div>
 
                 <div class="mt-12">
@@ -103,7 +105,7 @@
                                     </header>
                                     <p>
                                         Menstruation is the technical term for getting your period. About once a month,
-                                        females who have gone through puberty will experience menstrual bleeding.
+                                        girls and women who have gone through puberty will experience menstrual bleeding.
                                     </p>
                                 </div>
                             </div>
@@ -124,9 +126,8 @@
                                         <h3 class="text-sm uppercase tracking-wider text-pink-700">Puberty</h3>
                                     </header>
                                     <p>
-                                        Puberty is the process of physical changes through which a child's body
-                                        matures into an adult body capable of sexual reproduction. Our content
-                                        for Puberty is in Swahili.
+                                        Between the ages of 10 and 14 most girls and boys begin to notice changes in their bodies
+                                        Puberty starts when extra amounts of chemicals called "hormones" begin to be reproduced in the body. These hormones lead to changes in the body.
                                     </p>
                                 </div>
                             </div>
@@ -195,8 +196,8 @@
                                         <h3 class="text-sm uppercase tracking-wider text-pink-700">STD’s and STI’s</h3>
                                     </header>
                                     <p>
-                                        They are sexually transmitted diseases. This means they are most often -- but not
-                                        exclusively -- spread by sexual intercourse. Some of the examples are HIV, chlamydia,
+                                        They are sexually transmitted diseases. This means they are most often, but not
+                                        exclusively spread by sexual intercourse. Some of the examples are HIV, chlamydia,
                                         genital herpes, gonorrhea, some forms of hepatitis, syphilis, and trichomoniasis.
                                     </p>
                                 </div>
@@ -211,11 +212,56 @@
         </div>
     </section>
 
+    {{--    --}}
+    <section class="bg-white border-t py-16">
+        <div class="w-2/3 mx-auto">
+            <div>
+                <header class="mb-4">
+                    <h3 class="text-lg uppercase">With support from</h3>
+                </header>
+                <div class="flex w-full rounded py-6 -mx-4">
+                    <div class="w-1/2 px-4">
+                        <div class="flex items-center rounded shadow">
+                            <div class="mr-6 px-4 py-4 rounded bg-pink-100">
+                                <img src="{{ asset("img/logo/genu.png") }}" class="h-16" alt="Genu Logo">
+                            </div>
+                            <header>
+                                <h4 class="text-pink-900 font-semibold text-lg mb-2">Generation Unlimited</h4>
+                                <a class="flex items-center text-xs text-pink-500 uppercase tracking-wider" href="https://www.generationunlimited.org" target="_blank">
+                                    <span class="mr-2">Visit website</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current h-4 w-4">
+                                        <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z"/>
+                                    </svg>
+                                </a>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="w-1/2 px-4">
+                        <div class="flex items-center rounded shadow">
+                            <div class="mr-6 px-4 py-4 rounded bg-pink-100">
+                                <img src="{{ asset("img/logo/apps_and_girls.png") }}" class="h-16" alt="Genu Logo">
+                            </div>
+                            <header>
+                                <h4 class="text-pink-900 font-semibold text-lg mb-2">Apps And Girls</h4>
+                                <a class="flex items-center text-xs text-pink-500 uppercase tracking-wider" href="https://www.appsandgirls.com" target="_blank">
+                                    <span class="mr-2">Visit website</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current h-4 w-4">
+                                        <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z"/>
+                                    </svg>
+                                </a>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Team Members --}}
     <section class="w-2/3 mx-auto mt-12 mb-12">
         <div class="my-16">
                 <header class="mb-12 mt-12">
-                    <h4 class="font-sans text-2xl">Established by three young girls</h4>
+                    <h4 class="font-sans text-2xl">Created by three young girls:</h4>
                 </header>
 
                 <ul class="flex block w-full mb-8">

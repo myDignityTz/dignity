@@ -51,17 +51,20 @@
 
                 <div>
                         <p class="mb-4">
-                            I am currently a first year student at the University of Dar es salaam
-                            taking Bachelor of Science in Business Information Technology.
+                            I am a first-year Bachelor of Science in Business Information Technology
+                            student at the University of Dar es Salaam.
                         </p>
+
                         <p class="mb-4">
-                            I believe in innovation and everyone is an innovator, we just need to
-                            think a little bit deeper, because for me innovation is anything that
-                            brings positive change to the community, My Dignity is innovation.
+                            I believe in innovation and that everyone is an innovator. We just need to think a little
+                            bit deeper, because for me innovation is anything that brings positive change to the
+                            community, My Dignity is innovation.
                         </p>
+
                         <p class="mb-4">
                             I hope you learn a lot through our platform.
                         </p>
+
                         <p class="mb-4">
                             Let’s help her graduate together with him.
                         </p>

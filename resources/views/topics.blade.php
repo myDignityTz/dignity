@@ -43,13 +43,13 @@
                     <h3 class="text-lg mb-4 heading-indicator">111 - Balehe</h3>
                     <div class="leading-loose">
                         <p>
-                            Kati ya miaka 10-14 wasichana na wavulana huanza kuona mabadiliko 
-                            katika miili yao, ya kimili na kihisia, na huchukua miaka kadhaa, 
-                            mabadiliko haya huitwa balehe, msichana huanza kuzalisha mayai ya 
-                            uzazi, mwili hupevuka na kujenga uwezo wa kupata watoto, lakini 
-                            haimaanishi kwamba huu ni wakati mwafaka wa kupata mtoto, maziwa 
-                            huanza kukua, nyonga hutanuka na nywele huota sehemu za siri na 
-                            makwapani. 
+                            Kati ya miaka 10-14 wasichana na wavulana huanza kuona mabadiliko
+                            katika miili yao, ya kimili na kihisia, na huchukua miaka kadhaa,
+                            mabadiliko haya huitwa balehe, msichana huanza kuzalisha mayai ya
+                            uzazi, mwili hupevuka na kujenga uwezo wa kupata watoto, lakini
+                            haimaanishi kwamba huu ni wakati mwafaka wa kupata mtoto, maziwa
+                            huanza kukua, nyonga hutanuka na nywele huota sehemu za siri na
+                            makwapani.
                         </p>
                     </div>
                 </section>
@@ -59,15 +59,14 @@
                     <h3 class="text-lg mb-4 heading-indicator">112 - Mzunguko wa mwezi</h3>
                     <div class="leading-loose">
                         <p>
-                            Wakati wa hedhi, kuta za mfuko wa kizazi(uterasi) hubomoka na kutoka 
-                            nje pamoja na damu kupitia uke, hutokea kila mwezi ndani ya siku nne 
-                            hadi saba, jambo kama hili ni kawaida na hutokea kila mwezi.Tangu kuingia 
-                            kwenye siku zako(damu inapoanza kutoka) mpaka siku unayoingia tena kwa 
-                            kawaida ni siku 28, huo ndio mzunguko japo wengine huchukua muda mrefu zaidi.
-                            
-                            Wegine hawasikii maumivu wakati wa hedhi, wakati baadhi wakipata maumivu makali, 
-                            kama unahitaji kubadili pedi au vitambaa zaidi ya mara nne, omba ushauri wa mkubwa 
-                            wako ama daktari. 
+                            Wakati wa hedhi, kuta za mfuko wa kizazi(uterasi) hubomoka na kutoka
+                            nje pamoja na damu kupitia uke, hutokea kila mwezi ndani ya siku nne
+                            hadi saba, jambo kama hili ni kawaida na hutokea kila mwezi.Tangu
+                            kuingia kwenye siku zako(damu inapoanza kutoka) mpaka siku unayoingia
+                            tena kwa kawaida ni siku 28, huo ndio mzunguko japo wengine huchukua
+                            muda mrefu zaidi. Wegine hawasikii maumivu wakati wa hedhi, wakati
+                            baadhi wakipata maumivu makali, kama unahitaji kubadili pedi au vitambaa
+                            zaidi ya mara nne, omba ushauri wa mkubwa wako ama daktari.
                         </p>
                     </div>
                 </section>
@@ -77,13 +76,13 @@
                     <h3 class="text-lg mb-4 heading-indicator">113 - Mimba</h3>
                     <div class="leading-loose">
                         <p>
-                            Baada ya kuvunja ungo msichana hupata hedhi mara moja kila mwezi, siku ya 
-                            kwanza ya hedhi ni siku yakwanza ya mzunguko, baada ya damu kutoka, yai moja 
-                            linaanza kukua ndani ya kokwa, vilevile utando wa damu ndani ya mfuko wa uzazi 
-                            huanza kujengeka ili ukaribishe mimba, ndani ya siku 11-14 yai hupevuka ndani 
-                            ya kokwa na halafu husafiri kwenye mrija wa kupitisha mayai hadi mfuko wa uzazi, 
-                            mwanamke anapata mimba kama yai litaungana na mbegu ya kiume, ina maana kama 
-                            msichana akikutana  na mvulana wakati yai linakaribia au limekwisha pevuka 
+                            Baada ya kuvunja ungo msichana hupata hedhi mara moja kila mwezi, siku ya
+                            kwanza ya hedhi ni siku yakwanza ya mzunguko, baada ya damu kutoka, yai moja
+                            linaanza kukua ndani ya kokwa, vilevile utando wa damu ndani ya mfuko wa uzazi
+                            huanza kujengeka ili ukaribishe mimba, ndani ya siku 11-14 yai hupevuka ndani
+                            ya kokwa na halafu husafiri kwenye mrija wa kupitisha mayai hadi mfuko wa uzazi,
+                            mwanamke anapata mimba kama yai litaungana na mbegu ya kiume, ina maana kama
+                            msichana akikutana na mvulana wakati yai linakaribia au limekwisha pevuka
                             atapata ujauzito.
                         </p>
                     </div>
@@ -93,11 +92,11 @@
                     <h3 class="text-lg mb-4 heading-indicator">114 - Magonjwa</h3>
                     <div class="leading-loose">
                         <p>
-                            Magonjwa haya huleta maumivu makali na hata wakati mwingine kifo, baadhi ya magonjwa 
-                            hayo ni pamoja na UKIMWI, kisonono, kaswende, klamdia na kadhalika, dalili zake huwa 
-                            kuwashwa sehemu za siri, vidonda sehemu za siri na kwa wanawake huweza kuhisi 
-                            maumivu makali chini ya tumbo , njia kuu ya kujiepusha na magonjwa hayo ni kuacha 
-                            kujamiiana hadi pale utakapoolewa, na itakapofikia muda huo kuwa mwaminifu kwa mwenza 
+                            Magonjwa haya huleta maumivu makali na hata wakati mwingine kifo, baadhi ya magonjwa
+                            hayo ni pamoja na UKIMWI, kisonono, kaswende, klamdia na kadhalika, dalili zake huwa
+                            kuwashwa sehemu za siri, vidonda sehemu za siri na kwa wanawake huweza kuhisi
+                            maumivu makali chini ya tumbo , njia kuu ya kujiepusha na magonjwa hayo ni kuacha
+                            kujamiiana hadi pale utakapoolewa, na itakapofikia muda huo kuwa mwaminifu kwa mwenza
                             wako.
                         </p>
                     </div>
@@ -107,19 +106,21 @@
                     <h3 class="text-lg mb-4 heading-indicator">114 - Mimba za utotoni</h3>
                     <div class="leading-loose">
                         <p class="mb-4">
-                            Wataalamu wanashauri msichana anastahili kubeba mimba kuanzia umri wa miaka 18-20, 
-                            kabla ya umri huu, mwili wa msichana bado haujakomaa vizuri, viungo vya uzazi bado 
-                            ni vidogo na ngozi ni laini, vilevile mfupa wa nyonga vado ni mwembamba kiasi cha 
-                            kumwezesha mtoto kupita wakati wa kuzaliwa.
+                            Wataalamu wanashauri msichana anastahili kubeba mimba akiwa na zaidi ya umri wa miaka 20,
+                            kabla ya umri huu, mwili wa msichana bado haujakomaa vizuri, viungo vya uzazi bado ni vidogo
+                            na ngozi ni laini, vilevile mfupa wa nyonga vado ni mwembamba kiasi cha kumwezesha mtoto
+                            kupita wakati wa kuzaliwa.
                         </p>
 
                         <p class="mb-4">
-                            Matatizo wanayokutana nayo ni pamoja na mapigo ya moyo kuwa juu, kukwama kwa mtoto, 
+                            Matatizo wanayokutana nayo ni pamoja na mapigo ya moyo kuwa juu, kukwama kwa mtoto,
                             upasuaji wakati wa kujifungua, kujifungua kabla ya wakati na watoto kuzaliwa njiti.
                         </p>
 
-                        <p>Athari nyingine ni kukatisha masomo, hali duni kiuchumi na wakti mwingine kutengwa 
-                            katika jamii.</p>
+                        <p>
+                            Athari nyingine ni kukatisha masomo, hali duni kiuchumi na wakti mwingine kutengwa
+                            katika jamii.
+                        </p>
                     </div>
                 </section>
             </div>

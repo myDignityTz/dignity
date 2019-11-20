@@ -17,7 +17,6 @@
                     Ni jukwaa linaloleta mabinti na walezi pamoja kupitia njia ya SMS na wavuti, kupata elimu kuhusu
                     afya ya uzazi ya awali ya mabinti pamoja na walezi kupata mbinu za jinsi ya kuongelea afya ya
                     uzazi ya awali.
-
                     Jukwaa hili litaandaa semina, matamasha, machapisho na vyombo vya kidigitali kuhimiza juu ya umuhimu wa afya ya uzazi ya awali kwa mabinti.
                 </p>
             </div>

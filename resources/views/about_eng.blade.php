@@ -11,49 +11,68 @@
         </q>
     </div>
 
+    <section class="w-2/3 mx-auto mb-24 mt-12">
+        <iframe class="w-full rounded shadow" height="420" src="https://www.youtube.com/embed/UjT42UrQ6mA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
     <div class="w-2/3 mx-auto pb-24">
-        {{-- <header class="mb-12">
-            <h2 class="text-lg tracking-wider">
+         <header class="mb-12">
+            <h2 class="text-pink-500 uppercase tracking-wider border-b border-pink-200 pb-8 ">
                 Our Values
             </h2>
-        </header> --}}
+        </header>
 
         <div>
             <div class="flex -mx-6 mb-10">
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Listen</h3>
-                    <p class="mt-6">you never know enough, be ready to listen because only then you learn.</p>
+                    <p class="mt-6">
+                        Be ready to listen, because when you listen you learn.
+                    </p>
                 </div>
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Faith</h3>
-                    <p class="mt-6">we have faith in God, knowing we are the change makers, we will end up winners even when everything seems impossible.</p>
+                    <p class="mt-6">
+                        We have faith in God, we are the change makers, we will be winners even when everything seems
+                        impossible.
+                    </p>
                 </div>
             </div>
             <div class="flex -mx-6 mb-10">
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Hope</h3>
-                    <p class="mt-6">We hope for what we believe in.</p>
+                    <p class="mt-6">
+                        Hope We have hope for what we believe in.
+                    </p>
                 </div>
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Ownership</h3>
-                    <p class="mt-6">Every member at My Dignity is the owner, the owner strive for the success of what is theirs.</p>
+                    <p class="mt-6">
+                        Every member at My Dignity is the owner, we strive for success.
+                    </p>
                 </div>
             </div>
             <div class="flex -mx-6 mb-10">
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Equality</h3>
-                    <p class="mt-6">Everyone should fight until the day girls and boys are equal academically.</p>
+                    <p class="mt-6">
+                        Everyone should fight until the day girls and boys are equal academically.
+                    </p>
                 </div>
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Integrity</h3>
-                    <p class="mt-6">complete honesty is the key to success.</p>
+                    <p class="mt-6">
+                        Complete honesty is the key to success.
+                    </p>
                 </div>
             </div>
 
             <div class="flex -mx-6">
                 <div class="w-1/2 px-6">
                     <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Innovation</h3>
-                    <p class="mt-6">everything that brings positive change in our community is innovation, everyone is an innovator.</p>
+                    <p class="mt-6">
+                        Everything that brings positive change in our community is innovation, everyone is an innovator.
+                    </p>
                 </div>
                 <div class="w-1/2 px-6"></div>
             </div>
@@ -70,14 +89,13 @@
                         </h2>
                     </header>
                     <div class="text-xl leading-loose tracking-wider">
-                        To provide techniques to parents on how to provide sexual reproductive 
-                        health education through a friendly platform that agrees  with the 
-                        level of technology in Tanzania, so as to ensure young girls have 
-                        adequate education on sexual reproductive health to reduce the number 
-                        of dropouts due to pregnancy.
+                        To provide parents with knowledge and techniques on how to talk about sexual and reproductive
+                        health with their children through a platform accessible across Tanzania. We envision a Tanzania
+                        where young girls have adequate education on sexual and reproductive health, early pregnancies
+                        are reduced and girls are not forced to drop out of school.
                     </div>
                 </div>
-    
+
                 <div class="w-1/2 px-10 py-10 bg-pink-600 rounded-lg shadow-lg">
                     <header class="mb-4">
                         <h2 class="text-sm text-pink-200 uppercase tracking-wider">
@@ -85,9 +103,8 @@
                         </h2>
                     </header>
                     <div class="text-xl leading-loose tracking-wider text-white">
-                        My Dignity techniques will be widespread all over Tanzania, helping 
-                        parents to communicate all over Tanzania so as to reduce the number 
-                        of dropouts among girls.
+                        My Dignity techniques will be spread across Tanzania. Helping parents to communicate with
+                        their children and reducing the number of girls dropping out of school due to early pregnancies.
                     </div>
                 </div>
             </div>
