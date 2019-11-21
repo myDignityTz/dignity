@@ -212,7 +212,7 @@
         </div>
     </section>
 
-    {{--    --}}
+    {{--  Supporters  --}}
     <section class="bg-white border-t py-16">
         <div class="w-2/3 mx-auto">
             <div>
@@ -260,42 +260,42 @@
     {{-- Team Members --}}
     <section class="w-2/3 mx-auto mt-12 mb-12">
         <div class="my-16">
-                <header class="mb-12 mt-12">
-                    <h4 class="font-sans text-2xl">Created by three young girls:</h4>
-                </header>
+            <header class="mb-12 mt-12">
+                <h4 class="font-sans text-2xl">Created by three young girls:</h4>
+            </header>
 
-                <ul class="flex block w-full mb-8">
-                    <li class="w-1/3">
-                        <div class="flex items-center">
-                            <img src="{{ asset("img/team/elizabeth.jpg") }}" class="h-16 w-16 object-cover rounded-full" alt="">
-                            <div class="ml-4">
-                                <h4 class="text-sm font-sans font-semibold">Elizabeth .A. Mwakatimbo</h4>
-                                <p class="font-sans text-xs uppercase tracking-wider text-pink-400">Co-Founder</p>
-                                <a href="#" class="text-xs mt-2 block text-gray-600">elizabethmwakatimbo@gmail.com</a>
-                            </div>
+            <ul class="flex block w-full mb-8">
+                <li class="w-1/3">
+                    <div class="flex items-center">
+                        <img src="{{ asset("img/team/elizabeth.jpg") }}" class="h-16 w-16 object-cover rounded-full" alt="">
+                        <div class="ml-4">
+                            <h4 class="text-sm font-sans font-semibold">Elizabeth .A. Mwakatimbo</h4>
+                            <p class="font-sans text-xs uppercase tracking-wider text-pink-400">Co-Founder</p>
+                            <a href="#" class="text-xs mt-2 block text-gray-600">elizabethmwakatimbo@gmail.com</a>
                         </div>
-                    </li>
-                    <li class="w-1/3">
-                        <div class="flex items-center">
-                            <img src="{{ asset("img/team/avatar.png") }}" class="h-16 w-16 object-cover rounded-full" alt="">
-                            <div class="ml-4">
-                                <h4 class="text-sm font-sans font-semibold">Magdalena .R. Mhelezi</h4>
-                                <p class="font-sans text-xs uppercase tracking-wider text-pink-400">Co-Founder</p>
-                                <a href="#" class="text-xs mt-2 block text-gray-600">cherrymhelezi@gmail.com</a>
-                            </div>
+                    </div>
+                </li>
+                <li class="w-1/3">
+                    <div class="flex items-center">
+                        <img src="{{ asset("img/team/magdalena.png") }}" class="h-16 w-16 object-cover rounded-full" alt="">
+                        <div class="ml-4">
+                            <h4 class="text-sm font-sans font-semibold">Magdalena .R. Mhelezi</h4>
+                            <p class="font-sans text-xs uppercase tracking-wider text-pink-400">Co-Founder</p>
+                            <a href="#" class="text-xs mt-2 block text-gray-600">cherrymhelezi@gmail.com</a>
                         </div>
-                    </li>
-                    <li class="w-1/3">
-                        <div class="flex items-center">
-                            <img src="{{ asset("img/team/avatar.png") }}" class="h-16 w-16 object-cover rounded-full" alt="">
-                            <div class="ml-4">
-                                <h4 class="text-sm font-sans font-semibold">Jackline  .F. Mashauri</h4>
-                                <p class="font-sans text-xs uppercase tracking-wider text-pink-400">Co-Founder</p>
-                                <a href="#" class="text-xs mt-2 block text-gray-600">jackmashauri211@gmail.com</a>
-                            </div>
+                    </div>
+                </li>
+                <li class="w-1/3">
+                    <div class="flex items-center">
+                        <img src="{{ asset("img/team/jackline.png") }}" class="h-16 w-16 object-cover rounded-full" alt="">
+                        <div class="ml-4">
+                            <h4 class="text-sm font-sans font-semibold">Jackline  .F. Mashauri</h4>
+                            <p class="font-sans text-xs uppercase tracking-wider text-pink-400">Co-Founder</p>
+                            <a href="#" class="text-xs mt-2 block text-gray-600">jackmashauri211@gmail.com</a>
                         </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
 @endsection

@@ -2,7 +2,7 @@
 
 @section('content')
     <header class="w-2/3 mx-auto mb-12 mt-12">
-        <h1 class="text-2xl font-bold text-pink-500">Letter From Eagle</h1>
+        <h1 class="text-2xl font-bold text-pink-500">Barua Kutoka Kwa Tai</h1>
     </header>
 
     <div class="w-2/3 mx-auto mb-12">
@@ -27,7 +27,8 @@
                 Ninasonga mbele nikiwa na tumaini la kweli kuwa maisha ya wasichana nchini Tanzania yanaweza
                 kubadilishwa, wasichana wana uwezo wa kupokea nguvu nyingi kutoka kwa upendo, msaada na tumaini ambalo
                 wazazi wanakuwa nao, yote haya yanatoa urafiki na milango wazi ya kuunda uhusiano mkubwa, kuwalinda
-                watoto wetu ili waweze kufikia yale tunayotumaini, na kile wanachotamani kwa maisha yao ya baadaye ni jukumu letu.
+                watoto wetu ili waweze kufikia yale tunayotumaini, na kile wanachotamani kwa maisha yao ya baadaye ni
+                jukumu letu.
             </p>
 
             <p class="mb-4">
@@ -41,6 +42,11 @@
 
             <p class="mb-4">
                 Utashangazwa na matokeo ambayo ukweli utaleta, na tunakusaidia kutoa hivyo.
+            </p>
+
+            <p class="mb-4">
+                Ikiwa kovu linaweza kutoweka kutoka kwa moyo wa msichana mmoja, vivyo hivyo inaweza kutoka kwa mioyo ya
+                wasichana wote nchini Tanzania.
             </p>
 
             <p class="mb-4">

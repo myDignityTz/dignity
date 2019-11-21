@@ -2,7 +2,7 @@
 
 @section('content')
     <header class="w-2/3 mx-auto mb-12 mt-12">
-        <h1 class="text-2xl font-bold text-pink-500 mb-4">Team</h1>
+        <h1 class="text-2xl font-bold text-pink-500 mb-4">Timu</h1>
     </header>
 
     <div class="w-2/3 mx-auto mb-24 mt-12">
@@ -93,7 +93,7 @@
 
             <div class="w-1/3 px-6">
                 <div>
-                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/avatar.png")}}" alt="">
+                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/magdalena.png")}}" alt="">
                 </div>
 
                 <ul class="mt-8">
@@ -128,7 +128,7 @@
         <div class="flex -mx-6 border-b pb-6 pt-10">
             <div class="w-1/3 px-6">
                 <div>
-                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/avatar.png")}}" alt="">
+                    <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/jackline.png")}}" alt="">
                 </div>
 
                 <ul class="mt-8">

@@ -2,7 +2,7 @@
 
 @section('content')
     <header class="w-2/3 mx-auto mb-12 mt-12">
-        <h1 class="text-2xl font-bold text-pink-500">About Us</h1>
+        <h1 class="text-2xl font-bold text-pink-500">Kuhusu</h1>
     </header>
 
     <div class="w-2/3 mx-auto mb-24 mt-12">
