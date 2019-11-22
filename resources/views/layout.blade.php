@@ -40,11 +40,11 @@
                 <div class="flex items-center justify-between w-full px-12 mx-auto">
                     <div class="flex items-center">
                         <a href="/" class="font-bold text-xl">
-                            <img src="{{ asset('img/logo/logo-black.svg') }}" class="h-10" alt="">
+                            <img src="{{ asset('img/logo/genu.png') }}" class="h-10" alt="">
                         </a>
                         <span class="px-4 text-gray-400">|</span>
                         <a href="/" class="font-bold text-xl">
-                            <img src="{{ asset('img/logo/genu.png') }}" class="h-10" alt="">
+                            <img src="{{ asset('img/logo/logo-black.svg') }}" class="h-10" alt="">
                         </a>
                     </div>
 
