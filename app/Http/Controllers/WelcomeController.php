@@ -11,7 +11,7 @@ class WelcomeController extends Controller
     {
         $view = "welcome_" .cache("lang");
 
-        if (!View::exists($view)) {
+        if (View::exists($view)) {
             return view($view);
         }
 
