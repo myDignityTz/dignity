@@ -7,7 +7,7 @@
 4. **PHP and Dependencies for Laravel**. The website has a few system requirements, you will need to make sure your server meets the following requirements:
     - PHP >= 7.2.0
     If you are using Apache as your web server to install PHP and Apache PHP module run the following command:
-        ```sudo apt install php libapache2-mod-php```
+        `sudo apt install php libapache2-mod-php`
     Once the packages are installed restart the Apache service:
         `sudo systemctl restart apache2`  
     Unlike Apache, Nginx doesn't have a built in support for processing PHP files so we need to install a separate application such as PHP FPM (“fastCGI process manager”) which will handle PHP files.
