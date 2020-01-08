@@ -2,9 +2,13 @@
   <dictionary name="apple">
     <words>
       <w>barua</w>
+      <w>ctype</w>
       <w>customerchat</w>
       <w>kuhusu</w>
       <w>kutoka</w>
+      <w>lemp</w>
+      <w>mbstring</w>
+      <w>nginx</w>
       <w>nyumbani</w>
       <w>timu</w>
     </words>

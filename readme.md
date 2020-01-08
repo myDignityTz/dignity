@@ -1,74 +1,169 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# How to Deploy Project to Live Server
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Prepare your dedicated server for project
+1. **Create/purchase your dedicated server**. In case of Digital Ocean it’s called Droplet, Amazon AWS call it EC2 instance etc.
+2. **Install LEMP or LAMP stack**. LAMP/LEMP stands for Linux (comes with server), web-server (Nginx for “E” and Apache for “A”), MySQL database and PHP. 
+3. **Configure SSH access for yourself**. You will probably deploy changes by SSHing to the machine and running commands like git pull, php artisan migrate etc. 
+4. **PHP and Dependencies for Laravel**. The website has a few system requirements, you will need to make sure your server meets the following requirements:
+    - PHP >= 7.2.0
+    If you are using Apache as your web server to install PHP and Apache PHP module run the following command:
+        `sudo apt install php libapache2-mod-php`
+    Once the packages are installed restart the Apache service:
+        `sudo systemctl restart apache2`  
+    Unlike Apache, Nginx doesn't have a built in support for processing PHP files so we need to install a separate application such as PHP FPM (“fastCGI process manager”) which will handle PHP files.
+    
+    To install the PHP and PHP FPM packages run the following command:
+        `sudo apt install php7.3-fpm`
+    Once the packages are installed you can check the status of the PHP FPM service with:
+        `systemctl status php7.3-fpm`
+    You can now edit the Nginx server block and add the following lines so that Nginx can process PHP files:
+        ```
+            server {
+            
+                # . . . other code
+            
+                location ~ \.php$ {
+                    include snippets/fastcgi-php.conf;
+                    fastcgi_pass unix:/run/php/php7.3-fpm.sock;
+                }
+            }
+        ```
+    Do not forget to restart the Nginx service so that the new configuration take effect:
+        `sudo systemctl restart nginx`
+    Installing PHP 7.3 Extensions
+        Install all php extensions in one command
+            `sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json`
+        Install Individual Extension
+        - BCMath PHP Extension
+            `sudo apt-get install php7.3-bcmath`
+        - Ctype PHP Extension
+            `sudo apt-get install php7.3-ctype`
+        - JSON PHP Extension
+            `sudo apt-get install php7.3-json`
+        - Mbstring PHP Extension
+            `sudo apt-get install php7.3-mbstring`
+        - OpenSSL PHP Extension
+            `sudo apt-get install openssl`
+        - PDO PHP Extension
+            `sudo apt-get install php7.3-pdo`
+        - Tokenizer PHP Extension
+            `sudo apt-get install php7.3-bcmath`
+        - XML PHP Extension
+            `sudo apt-get install php7.3-xml`
+            
+5. **Install/configure composer**
+Install PHP CLI and Zip:
+    `sudo apt update && sudo apt install wget php-cli php-zip unzip curl`
+Download Composer with curl:
+    `curl -sS https://getcomposer.org/installer |php`
+Move the Composer file to /usr/local/bin directory:
+    `sudo mv composer.phar /usr/local/bin/composer`
+6. **Install/configure git**
+    `sudo apt-get install git`
+7. **Configure MySQL**
+    `sudo apt-get install mysql`
+8. **Configure Web-server** Prepare a specific folder for your website. Here’s an example Nginx config provided
+```
+server {
+    listen 80;
+    server_name example.com;
+    root /example.com/public;
+    
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header X-XSS-Protection "1; mode=block";
+    add_header X-Content-Type-Options "nosniff";
+    
+    index index.html index.htm index.php;
+    
+    charset utf-8;
+    
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+    
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+    
+    error_page 404 /index.php;
+    
+    location ~ \.php$ {
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php/php7.1-fpm.sock;
+        fastcgi_index index.php;
+        include fastcgi_params;
+    }
+    
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+}
+```
+9. **Point the Domain to Server**. Your new server probably has some IP address given to you by Digital Ocean (or other provider), so now you need to go to the page of your domain configuration (where you’ve bought the domain) and change its DNS records, specifically A record to point to that new IP address.
+`git clone https://github.com/davidpella/dignity.git {projectName}`
 
-## About Laravel
+## Initial launch of the project
+1. **Putting the code to the repository**.
+2. **Cloning repository to the server**. We need to SSH into our server, navigate to the folder prepared for the project, and launch git clone command.
+3. **.env file**. 
+- Create new .env file under root directory of the project by using the following command: 
+    `touch .env`
+- The open .env file then paste the following code to it.
+    ```
+        APP_NAME=MyDignity
+        APP_ENV=production
+        APP_KEY=base64:lE2vr5MHhf9H3uLlOutgw3ZOjyrdsdOVgGw9LGshq10=
+        APP_DEBUG=false
+        APP_URL=http://mydignity.co.tz
+        
+        LOG_CHANNEL=stack
+        
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=
+        DB_USERNAME=
+        DB_PASSWORD=
+        
+        BROADCAST_DRIVER=log
+        CACHE_DRIVER=file
+        QUEUE_CONNECTION=sync
+        SESSION_DRIVER=file
+        SESSION_LIFETIME=120
+        
+        REDIS_HOST=127.0.0.1
+        REDIS_PASSWORD=null
+        REDIS_PORT=6379
+        
+        MAIL_DRIVER=smtp
+        MAIL_HOST=smtp.mailtrap.io
+        MAIL_PORT=2525
+        MAIL_USERNAME=null
+        MAIL_PASSWORD=null
+        MAIL_ENCRYPTION=null
+        
+        AWS_ACCESS_KEY_ID=
+        AWS_SECRET_ACCESS_KEY=
+        AWS_DEFAULT_REGION=us-east-1
+        AWS_BUCKET=
+        
+        PUSHER_APP_ID=
+        PUSHER_APP_KEY=
+        PUSHER_APP_SECRET=
+        PUSHER_APP_CLUSTER=mt1
+        
+        MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+        MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    ```
+  
+4. **Writeable folders**. After installing project, you may need to configure some permissions. Directories within the storage and the bootstrap/cache directories should be writable by your web server or Laravel will not run. 
+    `chmod -R 755 storage`
+    `chmod -R 755 bootstrap/cache`
+5. **Composer install**. Let’s run this “magic” command.
+    `composer install`
+6. **Generate application key**. We need to run this command
+    `php artisan key:generate`
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
