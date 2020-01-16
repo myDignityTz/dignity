@@ -1,12 +1,12 @@
 @extends('layout')
 
 @section('content')
-    <header class="w-2/3 mx-auto mb-12 mt-12">
+    <header class="lg:w-2/3 w-full mx-auto mb-12 mt-12 px-6 lg:px-0">
         <h1 class="text-2xl font-bold text-pink-500">Letter From Eagle</h1>
     </header>
 
-    <div class="w-2/3 mx-auto mb-12">
-        <div class="text-xl leading-loose font-handwriting rounded-lg bg-white shadow-lg py-16 px-10">
+    <div class="lg:w-2/3 mx-auto mb-12">
+        <div class="text-xl leading-loose font-handwriting rounded-lg bg-white shadow-lg py-16 lg:px-10 px-6">
             <p class="mb-4">
                 It was always difficult to climb the mountains at home, because of the scar that once existed in my
                 heart; it was very hard to breathe whenever I did something tiring.

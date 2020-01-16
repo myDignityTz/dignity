@@ -15,4 +15,16 @@
     }
 }
 
+@screen lg {
+    .cover {
+        height: 20rem;
+    }
+}
+
+@screen sm {
+    .cover {
+        height: calc(100vh - 73px);
+    }
+}
+
 @import "tailwindcss/utilities";

@@ -644,6 +644,18 @@ video {
   content: "";
 }
 
+@media (min-width: 1024px) {
+  .cover {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .cover {
+    height: calc(100vh - 73px);
+  }
+}
+
 .sr-only{
   position: absolute;
   width: 1px;

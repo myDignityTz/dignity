@@ -1,13 +1,13 @@
 @extends('layout')
 
 @section('content')
-    <header class="w-2/3 mx-auto mb-12 mt-12">
+    <header class="lg:w-2/3 mx-auto lg:mb-12 mb-6 lg:mt-12 mt-6 px-6 lg:px-0">
         <h1 class="text-2xl font-bold text-pink-500">Topics</h1>
     </header>
 
-    <section class="w-2/3 mx-auto">
-        <div class="flex -mx-6">
-            <aside class="w-1/3 px-6">
+    <section class="lg:w-2/3 w-full mx-auto">
+        <div class="flex lg:-mx-6">
+            <aside class="w-1/3 px-6 hidden lg:block">
                 <div class="flex border-b border-pink-200 py-6">
                     <span class="block text-4xl leading-none font-thin text-pink-200 font-semibold">111</span>
                     <span class="mx-4">&minus;</span>
@@ -38,7 +38,7 @@
                     <span class="block">Mimba za utotoni</span>
                 </div>
             </aside>
-            <div class="w-2/3 px-6">
+            <div class="lg:w-2/3 w-full px-6">
                 <section class="rounded-lg bg-white shadow px-6 py-6 mb-8">
                     <h3 class="text-lg mb-4 heading-indicator">111 - Balehe</h3>
                     <div class="leading-loose">

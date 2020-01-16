@@ -2,18 +2,17 @@
 
 @section('content')
     {{-- Page Cover --}}
-    <div class="relative">
+    <div class="lg:relative">
         <img
             src="{{ asset("img/cover/image01.jpg") }}"
             alt="Cover photograph"
-            class="w-full object-cover"
-            style="height: calc(100vh - 73px)"
+            class="w-full object-cover cover"
         />
 
-        <div class="absolute top-0 bottom-0 right-0 w-1/2 bg-white mt-16 mb-16 mr-12 rounded-lg shadow-lg opacity-75">
-            <div class="px-16 py-16">
-                <h2 class="text-4xl font-bold tracking-wider mb-4">MyDignity</h2>
-                <p class="leading-loose text-xl">
+        <div class="lg:absolute top-0 bottom-0 right-0 lg:w-1/2 bg-white lg:mt-16 lg:mb-16 lg:mr-12 lg:rounded-lg shadow-lg opacity-75">
+            <div class="lg:px-16 px-6 lg:py-16 py-8">
+                <h2 class="lg:text-4xl text-3xl font-bold tracking-wider mb-4">MyDignity</h2>
+                <p class="lg:leading-loose leading-relaxed text-xl">
                     Is a web and SMS based platform for both smart and feature phones. My dignity is designed to
                     provide <span class="font-semibold text-pink-500">easy access</span> to information and reach
                     targeted users. Furthermore, My Dignity will <span class="font-semibold text-pink-500">create awareness</span>
@@ -26,8 +25,8 @@
     </div>
 
     {{-- Why we need SRH Education --}}
-    <section class="bg-white pt-24 pb-24">
-        <div class="w-2/3 mx-auto">
+    <section class="bg-white lg:pt-24 lg:pb-24 pt-12 pb-12">
+        <div class="lg:w-2/3 w-full mx-auto px-6 lg:px-0">
             <header class="mb-4">
                 <h3 class="text-3xl font-handwriting heading-indicator">Why SRH education:</h3>
             </header>
@@ -62,8 +61,8 @@
 
                 <div>
                     <div class="flex mb-12">
-                        <div class="w-1/5 text-left mr-12 text-5xl text-pink-200 font-bold">01</div>
-                        <div class="w-4/5 text-2xl leading-loose">
+                        <div class="w-1/5 text-left mr-12 lg:text-5xl text-3xl text-pink-200 font-bold">01</div>
+                        <div class="w-4/5 lg:text-2xl lg:leading-loose">
                             My Dignity web-system and the SMS platform gives parents detailed information on sexual and
                             reproductive health, especially topics interesting and helpful to young people, providing
                             them confidence and boldness to talk about sexual and reproductive health.
@@ -71,8 +70,8 @@
                     </div>
 
                     <div class="flex mb-12">
-                        <div class="w-1/5 text-left mr-12 text-5xl text-pink-200 font-bold">02</div>
-                        <div class="w-4/5 text-2xl leading-loose">
+                        <div class="w-1/5 text-left mr-12 lg:text-5xl text-3xl text-pink-200 font-bold">02</div>
+                        <div class="w-4/5 lg:text-2xl lg:leading-loose">
                             We also equip adolescents with Sexual and Reproductive Health Education.
                         </div>
                     </div>
@@ -80,16 +79,15 @@
             </div>
 
             <div>
-                <div class="text-xl text-pink-600 font-semibold leading-loose">
+                <div class="text-xl text-pink-600 font-semibold lg:leading-loose leading-relaxed">
                     The topics that adolescents are more interested with and have been found helpful in their sexual
                     life, so as to abstain themselves from sex and provide them self protection, which mostly have to
                     be more professional and educational are.
                 </div>
 
                 <div class="mt-12">
-
-                    <div class="flex -mx-6 mb-10">
-                        <div class="w-1/2 px-6">
+                    <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
+                        <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
                                 <div class="mr-4">
                                     <svg aria-hidden="true" class="h-5 w-5" focusable="false" data-prefix="fad" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -110,8 +108,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="w-1/2 px-6">
+                        <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
                                 <div class="mr-4">
                                     <svg aria-hidden="true" class="h-5 w-5" focusable="false" data-prefix="fad" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -134,8 +131,8 @@
                         </div>
                     </div>
 
-                    <div class="flex -mx-6 mb-10">
-                        <div class="w-1/2 px-6">
+                    <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
+                        <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
                                 <div class="mr-4">
                                     <svg aria-hidden="true" class="h-5 w-5" focusable="false" data-prefix="fad" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -156,8 +153,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="w-1/2 px-6">
+                        <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
                                 <div class="mr-4">
                                     <svg aria-hidden="true" class="h-5 w-5" focusable="false" data-prefix="fad" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -180,8 +176,8 @@
                         </div>
                     </div>
 
-                    <div class="flex -mx-6 mb-10">
-                        <div class="w-1/2 px-6">
+                    <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
+                        <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
                                 <div class="mr-4">
                                     <svg aria-hidden="true" class="h-5 w-5" focusable="false" data-prefix="fad" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -213,44 +209,42 @@
     </section>
 
     {{--  Supporters  --}}
-    <section class="bg-white border-t py-16">
-        <div class="w-2/3 mx-auto">
-            <div>
-                <header class="mb-4">
-                    <h3 class="text-lg uppercase">With support from</h3>
-                </header>
-                <div class="flex w-full rounded py-6 -mx-4">
-                    <div class="w-1/2 px-4">
-                        <div class="flex items-center rounded shadow">
-                            <div class="mr-6 px-4 py-4 rounded bg-pink-100">
-                                <img src="{{ asset("img/logo/genu.png") }}" class="h-16" alt="Genu Logo">
-                            </div>
-                            <header>
-                                <h4 class="text-pink-900 font-semibold text-lg mb-2">Generation Unlimited</h4>
-                                <a class="flex items-center text-xs text-pink-500 uppercase tracking-wider" href="https://www.generationunlimited.org" target="_blank">
-                                    <span class="mr-2">Visit website</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current h-4 w-4">
-                                        <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z"/>
-                                    </svg>
-                                </a>
-                            </header>
+    <section class="bg-white border-t lg:py-16 pt-8 lg:pt-16">
+        <div class="lg:w-2/3 w-full mx-auto">
+            <header class="mb-4 px-6">
+                <h3 class="text-lg uppercase">With support from</h3>
+            </header>
+            <div class="flex lg:flex-row flex-col w-full rounded py-6">
+                <div class="lg:w-1/2 lg:px-4 w-full px-6 mb-6 lg:mb-0">
+                    <div class="flex items-center rounded shadow">
+                        <div class="mr-6 px-4 py-4 rounded bg-pink-100">
+                            <img src="{{ asset("img/logo/genu.png") }}" class="h-16" alt="Genu Logo">
                         </div>
+                        <header>
+                            <h4 class="text-pink-900 font-semibold text-lg mb-2">Generation Unlimited</h4>
+                            <a class="flex items-center text-xs text-pink-500 uppercase tracking-wider" href="https://www.generationunlimited.org" target="_blank">
+                                <span class="mr-2">Visit website</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current h-4 w-4">
+                                    <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z"/>
+                                </svg>
+                            </a>
+                        </header>
                     </div>
-                    <div class="w-1/2 px-4">
-                        <div class="flex items-center rounded shadow">
-                            <div class="mr-6 px-4 py-4 rounded bg-pink-100">
-                                <img src="{{ asset("img/logo/apps_and_girls.png") }}" class="h-16" alt="Genu Logo">
-                            </div>
-                            <header>
-                                <h4 class="text-pink-900 font-semibold text-lg mb-2">Apps And Girls</h4>
-                                <a class="flex items-center text-xs text-pink-500 uppercase tracking-wider" href="https://www.appsandgirls.com" target="_blank">
-                                    <span class="mr-2">Visit website</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current h-4 w-4">
-                                        <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z"/>
-                                    </svg>
-                                </a>
-                            </header>
+                </div>
+                <div class="lg:w-1/2 lg:px-4 w-full px-6 mb-6 lg:mb-0">
+                    <div class="flex items-center rounded shadow">
+                        <div class="mr-6 px-4 py-4 rounded bg-pink-100">
+                            <img src="{{ asset("img/logo/apps_and_girls.png") }}" class="h-16" alt="Genu Logo">
                         </div>
+                        <header>
+                            <h4 class="text-pink-900 font-semibold text-lg mb-2">Apps And Girls</h4>
+                            <a class="flex items-center text-xs text-pink-500 uppercase tracking-wider" href="https://www.appsandgirls.com" target="_blank">
+                                <span class="mr-2">Visit website</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current h-4 w-4">
+                                    <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z"/>
+                                </svg>
+                            </a>
+                        </header>
                     </div>
                 </div>
             </div>
@@ -258,14 +252,14 @@
     </section>
 
     {{-- Team Members --}}
-    <section class="w-2/3 mx-auto mt-12 mb-12">
-        <div class="my-16">
+    <section class="lg:w-2/3 mx-auto lg:mt-12 mb-12 px-6 lg:px-0">
+        <div class="lg:my-16">
             <header class="mb-12 mt-12">
                 <h4 class="font-sans text-2xl">Created by three young girls:</h4>
             </header>
 
-            <ul class="flex block w-full mb-8">
-                <li class="w-1/3">
+            <ul class="flex lg:flex-row flex-col block w-full mb-8">
+                <li class="lg:w-1/3 w-full mb-8">
                     <div class="flex items-center">
                         <img src="{{ asset("img/team/elizabeth.jpg") }}" class="h-16 w-16 object-cover rounded-full" alt="">
                         <div class="ml-4">
@@ -275,7 +269,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="w-1/3">
+                <li class="lg:w-1/3 w-full mb-8">
                     <div class="flex items-center">
                         <img src="{{ asset("img/team/magdalena.png") }}" class="h-16 w-16 object-cover rounded-full" alt="">
                         <div class="ml-4">
@@ -285,7 +279,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="w-1/3">
+                <li class="lg:w-1/3 w-full mb-8">
                     <div class="flex items-center">
                         <img src="{{ asset("img/team/jackline.png") }}" class="h-16 w-16 object-cover rounded-full" alt="">
                         <div class="ml-4">

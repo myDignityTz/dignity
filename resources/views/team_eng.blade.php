@@ -1,19 +1,19 @@
 @extends('layout')
 
 @section('content')
-    <header class="w-2/3 mx-auto mb-12 mt-12">
+    <header class="lg:w-2/3 mx-auto lg:mb-12 mb-6 lg:mt-12 mt-6 px-6 lg:px-0">
         <h1 class="text-2xl font-bold text-pink-500 mb-4">Team</h1>
     </header>
 
-    <div class="w-2/3 mx-auto mb-24 mt-12">
+    <div class="lg:w-2/3 mx-auto lg:mb-24 mb-12 lg:mt-12 mt-6 px-6 lg:px-0">
         <q class="text-2xl font-handwriting text-pink-900 font-bold">
             Individual can do and make difference, but it take a team to really...
         </q>
     </div>
 
-    <section class="w-2/3 mx-auto">
-        <div class="flex -mx-6 border-b pb-6">
-            <div class="w-1/3 px-6">
+    <section class="lg:w-2/3 mx-auto">
+        <div class="flex lg:flex-row flex-col lg:-mx-6 border-b pb-6">
+            <div class="lg:w-1/3 w-full px-6 mb-6">
                 <div>
                     <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/elizabeth.jpg")}}" alt="">
                 </div>
@@ -46,7 +46,7 @@
                 </ul>
             </div>
 
-            <div class="w-2/3 px-6">
+            <div class="lg:w-2/3 w-full px-6 mb-6">
                 <h3 class="text-pink-500 mb-4 font-semibold text-lg">Elizabeth Mwakatimbo</h3>
 
                 <div>
@@ -72,8 +72,8 @@
             </div>
         </div>
 
-        <div class="flex -mx-6 border-b pb-6 pt-10">
-            <div class="w-2/3 px-6">
+        <div class="flex lg:flex-row flex-col lg:-mx-6 border-b pb-6 pt-10">
+            <div class="lg:w-2/3 w-full px-6 mb-6 lg:order-first order-last">
                 <h3 class="text-pink-500 mb-4 font-semibold text-lg">Magdalena Mhelezi</h3>
 
                 <div>
@@ -91,7 +91,7 @@
                 </div>
             </div>
 
-            <div class="w-1/3 px-6">
+            <div class="lg:w-1/3 w-full px-6 mb-6 lg:order-last order-first">
                 <div>
                     <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/magdalena.png")}}" alt="">
                 </div>
@@ -125,8 +125,8 @@
             </div>
         </div>
 
-        <div class="flex -mx-6 border-b pb-6 pt-10">
-            <div class="w-1/3 px-6">
+        <div class="flex lg:flex-row flex-col lg:-mx-6 border-b pb-6 pt-10">
+            <div class="lg:w-1/3 w-full px-6 mb-6">
                 <div>
                     <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/jackline.png")}}" alt="">
                 </div>
@@ -159,7 +159,7 @@
                 </ul>
             </div>
 
-            <div class="w-2/3 px-6">
+            <div class="lg:w-2/3 w-full px-6 mb-6">
                 <h3 class="text-pink-500 mb-4 font-semibold text-lg">Jackline Mashauri</h3>
 
                 <div>
