@@ -6,9 +6,7 @@
     </header>
 
     <div class="lg:w-2/3 mx-auto lg:mb-24 mb-12 lg:mt-12 mt-6 px-6 lg:px-0">
-        <q class="text-2xl font-handwriting text-pink-900 font-bold">
-            Individual can do and make difference, but it take a team to really...
-        </q>
+        <q class="text-2xl font-handwriting text-pink-900 font-bold">Individual can do and make difference, but it take a team to really...</q>
     </div>
 
     <section class="lg:w-2/3 mx-auto">
@@ -17,7 +15,6 @@
                 <div>
                     <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/elizabeth.jpg")}}" alt="">
                 </div>
-
                 <ul class="mt-8">
                     <li>
                         <a href="#" class="flex items-center block text-sm mb-4">
@@ -45,33 +42,23 @@
                     </li>
                 </ul>
             </div>
-
             <div class="lg:w-2/3 w-full px-6 mb-6">
                 <h3 class="text-pink-500 mb-4 font-semibold text-lg">Elizabeth Mwakatimbo</h3>
-
                 <div>
-                        <p class="mb-4">
-                            I am a first-year Bachelor of Science in Business Information Technology
-                            student at the University of Dar es Salaam.
-                        </p>
-
-                        <p class="mb-4">
-                            I believe in innovation and that everyone is an innovator. We just need to think a little
-                            bit deeper, because for me innovation is anything that brings positive change to the
-                            community, My Dignity is innovation.
-                        </p>
-
-                        <p class="mb-4">
-                            I hope you learn a lot through our platform.
-                        </p>
-
-                        <p class="mb-4">
-                            Let’s help her graduate together with him.
-                        </p>
+                    <p class="mb-4">
+                        I am a first-year Bachelor of Science in Business Information Technology
+                        student at the University of Dar es Salaam.
+                    </p>
+                    <p class="mb-4">
+                        I believe in innovation and that everyone is an innovator. We just need to think a little
+                        bit deeper, because for me innovation is anything that brings positive change to the
+                        community, My Dignity is innovation.
+                    </p>
+                    <p class="mb-4">I hope you learn a lot through our platform.</p>
+                    <p class="mb-4">Let’s help her graduate together with him.</p>
                 </div>
             </div>
         </div>
-
         <div class="flex lg:flex-row flex-col lg:-mx-6 border-b pb-6 pt-10">
             <div class="lg:w-2/3 w-full px-6 mb-6 lg:order-first order-last">
                 <h3 class="text-pink-500 mb-4 font-semibold text-lg">Magdalena Mhelezi</h3>
@@ -90,7 +77,6 @@
                         </p>
                 </div>
             </div>
-
             <div class="lg:w-1/3 w-full px-6 mb-6 lg:order-last order-first">
                 <div>
                     <img class="w-full object-cover h-48 rounded-lg shadow-lg" src="{{ asset("img/team/magdalena.png")}}" alt="">
@@ -124,7 +110,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="flex lg:flex-row flex-col lg:-mx-6 border-b pb-6 pt-10">
             <div class="lg:w-1/3 w-full px-6 mb-6">
                 <div>

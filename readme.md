@@ -153,7 +153,6 @@ server {
         
         MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
         MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-
     ```
   
 4. **Writeable folders**. After installing project, you may need to configure some permissions. Directories within the storage and the bootstrap/cache directories should be writable by your web server or Laravel will not run. 

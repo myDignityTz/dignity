@@ -6,9 +6,7 @@
     </header>
 
     <div class="lg:w-2/3 w-full px-6 lg:px-0 mx-auto lg:mb-24 mb-12 lg:mt-12 mt-6">
-        <q class="text-2xl font-handwriting text-pink-900 font-bold">
-            Let’s help HER graduate together with him
-        </q>
+        <q class="text-2xl font-handwriting text-pink-900 font-bold">Let’s help HER graduate together with him</q>
     </div>
 
     <section class="lg:w-2/3 w-full px-6 lg:px-0 mx-auto lg:mb-24 mb-12 lg:mt-12 mt-6">
@@ -16,10 +14,8 @@
     </section>
 
     <div class="lg:w-2/3 w-full px-6 lg:px-0 mx-auto lg:pb-24 pb-12">
-         <header class="mb-12">
-            <h2 class="text-pink-500 uppercase tracking-wider border-b border-pink-200 pb-8 ">
-                Our Values
-            </h2>
+        <header class="mb-12">
+            <h2 class="text-pink-500 uppercase tracking-wider border-b border-pink-200 pb-8 ">Our Values</h2>
         </header>
 
         <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
@@ -65,7 +61,7 @@
                 </p>
             </div>
         </div>
-        <div class="flex lg:flex-row flex-col lg:-mx-6 ">
+        <div class="flex lg:flex-row flex-col lg:-mx-6">
             <div class="lg:w-1/2 lg:px-6 mb-8 lg:mb-0">
                 <h3 class="mb-3 text-pink-800 font-semibold tracking-wider text-xl heading-indicator">Innovation</h3>
                 <p class="mt-6">
@@ -92,12 +88,9 @@
                         are reduced and girls are not forced to drop out of school.
                     </div>
                 </div>
-
                 <div class="lg:w-1/2 w-full px-10 py-10 bg-pink-600 rounded-lg shadow-lg">
                     <header class="mb-4">
-                        <h2 class="text-sm text-pink-200 uppercase tracking-wider">
-                            Our Vision
-                        </h2>
+                        <h2 class="text-sm text-pink-200 uppercase tracking-wider">Our Vision</h2>
                     </header>
                     <div class="lg:text-xl text-lg leading-relaxed lg:leading-loose tracking-wider text-white">
                         My Dignity techniques will be spread across Tanzania. Helping parents to communicate with

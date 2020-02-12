@@ -58,7 +58,6 @@
                 <header class="mb-12 mt-12">
                     <h3 class="text-lg uppercase tracking-wider">So in summary:</h3>
                 </header>
-
                 <div>
                     <div class="flex mb-12">
                         <div class="w-1/5 text-left mr-12 lg:text-5xl text-3xl text-pink-200 font-bold">01</div>
@@ -84,7 +83,6 @@
                     life, so as to abstain themselves from sex and provide them self protection, which mostly have to
                     be more professional and educational are.
                 </div>
-
                 <div class="mt-12">
                     <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
                         <div class="lg:w-1/2 w-full lg:px-6 mb-6">
@@ -130,7 +128,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
                         <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
@@ -175,7 +172,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="flex lg:flex-row flex-col lg:-mx-6 lg:mb-10">
                         <div class="lg:w-1/2 w-full lg:px-6 mb-6">
                             <div class="flex">
@@ -202,7 +198,6 @@
 
                         <div class="w-1/2 px-6"></div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -255,7 +250,7 @@
     <section class="lg:w-2/3 mx-auto lg:mt-12 mb-12 px-6 lg:px-0">
         <div class="lg:my-16">
             <header class="mb-12 mt-12">
-                <h4 class="font-sans text-2xl">Created by three young girls:</h4>
+                <h4 class="font-sans text-xl lg:text-2xl">Created by three young girls:</h4>
             </header>
 
             <ul class="flex lg:flex-row flex-col block w-full mb-8">
